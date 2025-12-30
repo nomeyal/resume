@@ -1161,6 +1161,14 @@ input, select, textarea {
 			background-repeat: no-repeat;
 			z-index: 1;
 		}
+		
+		@media screen and (max-width: 736px) {
+    #bg:after {
+        background-image: url("../../images/bg-mobile.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+}
 
 		body.is-article-visible #bg:after {
 			-moz-transform: scale(1.0825);
